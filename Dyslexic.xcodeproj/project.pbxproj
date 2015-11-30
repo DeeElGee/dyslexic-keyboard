@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92803FA51C08BE5200FE09BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92803FA41C08BE5200FE09BA /* AppDelegate.swift */; };
+		92803FA71C08BE5200FE09BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92803FA61C08BE5200FE09BA /* ViewController.swift */; };
+		92803FAA1C08BE5200FE09BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92803FA81C08BE5200FE09BA /* Main.storyboard */; };
+		92803FAC1C08BE5200FE09BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92803FAB1C08BE5200FE09BA /* Assets.xcassets */; };
+		92803FAF1C08BE5200FE09BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92803FAD1C08BE5200FE09BA /* LaunchScreen.storyboard */; };
+		92803FBA1C08BE5300FE09BA /* DyslexicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92803FB91C08BE5300FE09BA /* DyslexicTests.swift */; };
+		92803FC51C08BE5300FE09BA /* DyslexicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92803FC41C08BE5300FE09BA /* DyslexicUITests.swift */; };
+		92803FD91C08BF1800FE09BA /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92803FD81C08BF1800FE09BA /* KeyboardViewController.swift */; };
+		92803FDD1C08BF1800FE09BA /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 92803FD61C08BF1800FE09BA /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		92803FE31C08BF3500FE09BA /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92803FE21C08BF3500FE09BA /* Keyboard.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92803FB61C08BE5300FE09BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92803F991C08BE5200FE09BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92803FA01C08BE5200FE09BA;
+			remoteInfo = Dyslexic;
+		};
+		92803FC11C08BE5300FE09BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92803F991C08BE5200FE09BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92803FA01C08BE5200FE09BA;
+			remoteInfo = Dyslexic;
+		};
+		92803FDB1C08BF1800FE09BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92803F991C08BE5200FE09BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92803FD51C08BF1800FE09BA;
+			remoteInfo = Keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92803FE11C08BF1800FE09BA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				92803FDD1C08BF1800FE09BA /* Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92803FA11C08BE5200FE09BA /* Dyslexic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dyslexic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92803FA41C08BE5200FE09BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92803FA61C08BE5200FE09BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92803FA91C08BE5200FE09BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92803FAB1C08BE5200FE09BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92803FAE1C08BE5200FE09BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92803FB01C08BE5200FE09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92803FB51C08BE5300FE09BA /* DyslexicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyslexicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92803FB91C08BE5300FE09BA /* DyslexicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyslexicTests.swift; sourceTree = "<group>"; };
+		92803FBB1C08BE5300FE09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92803FC01C08BE5300FE09BA /* DyslexicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyslexicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92803FC41C08BE5300FE09BA /* DyslexicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyslexicUITests.swift; sourceTree = "<group>"; };
+		92803FC61C08BE5300FE09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92803FD61C08BF1800FE09BA /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		92803FD81C08BF1800FE09BA /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		92803FDA1C08BF1800FE09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92803FE21C08BF3500FE09BA /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92803F9E1C08BE5200FE09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FB21C08BE5300FE09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FBD1C08BE5300FE09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FD31C08BF1800FE09BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92803F981C08BE5200FE09BA = {
+			isa = PBXGroup;
+			children = (
+				92803FA31C08BE5200FE09BA /* Dyslexic */,
+				92803FB81C08BE5300FE09BA /* DyslexicTests */,
+				92803FC31C08BE5300FE09BA /* DyslexicUITests */,
+				92803FD71C08BF1800FE09BA /* Keyboard */,
+				92803FA21C08BE5200FE09BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92803FA21C08BE5200FE09BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92803FA11C08BE5200FE09BA /* Dyslexic.app */,
+				92803FB51C08BE5300FE09BA /* DyslexicTests.xctest */,
+				92803FC01C08BE5300FE09BA /* DyslexicUITests.xctest */,
+				92803FD61C08BF1800FE09BA /* Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92803FA31C08BE5200FE09BA /* Dyslexic */ = {
+			isa = PBXGroup;
+			children = (
+				92803FA41C08BE5200FE09BA /* AppDelegate.swift */,
+				92803FA61C08BE5200FE09BA /* ViewController.swift */,
+				92803FA81C08BE5200FE09BA /* Main.storyboard */,
+				92803FAB1C08BE5200FE09BA /* Assets.xcassets */,
+				92803FAD1C08BE5200FE09BA /* LaunchScreen.storyboard */,
+				92803FB01C08BE5200FE09BA /* Info.plist */,
+			);
+			path = Dyslexic;
+			sourceTree = "<group>";
+		};
+		92803FB81C08BE5300FE09BA /* DyslexicTests */ = {
+			isa = PBXGroup;
+			children = (
+				92803FB91C08BE5300FE09BA /* DyslexicTests.swift */,
+				92803FBB1C08BE5300FE09BA /* Info.plist */,
+			);
+			path = DyslexicTests;
+			sourceTree = "<group>";
+		};
+		92803FC31C08BE5300FE09BA /* DyslexicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92803FC41C08BE5300FE09BA /* DyslexicUITests.swift */,
+				92803FC61C08BE5300FE09BA /* Info.plist */,
+			);
+			path = DyslexicUITests;
+			sourceTree = "<group>";
+		};
+		92803FD71C08BF1800FE09BA /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				92803FE21C08BF3500FE09BA /* Keyboard.xib */,
+				92803FD81C08BF1800FE09BA /* KeyboardViewController.swift */,
+				92803FDA1C08BF1800FE09BA /* Info.plist */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92803FA01C08BE5200FE09BA /* Dyslexic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92803FC91C08BE5300FE09BA /* Build configuration list for PBXNativeTarget "Dyslexic" */;
+			buildPhases = (
+				92803F9D1C08BE5200FE09BA /* Sources */,
+				92803F9E1C08BE5200FE09BA /* Frameworks */,
+				92803F9F1C08BE5200FE09BA /* Resources */,
+				92803FE11C08BF1800FE09BA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92803FDC1C08BF1800FE09BA /* PBXTargetDependency */,
+			);
+			name = Dyslexic;
+			productName = Dyslexic;
+			productReference = 92803FA11C08BE5200FE09BA /* Dyslexic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92803FB41C08BE5300FE09BA /* DyslexicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92803FCC1C08BE5300FE09BA /* Build configuration list for PBXNativeTarget "DyslexicTests" */;
+			buildPhases = (
+				92803FB11C08BE5300FE09BA /* Sources */,
+				92803FB21C08BE5300FE09BA /* Frameworks */,
+				92803FB31C08BE5300FE09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92803FB71C08BE5300FE09BA /* PBXTargetDependency */,
+			);
+			name = DyslexicTests;
+			productName = DyslexicTests;
+			productReference = 92803FB51C08BE5300FE09BA /* DyslexicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92803FBF1C08BE5300FE09BA /* DyslexicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92803FCF1C08BE5300FE09BA /* Build configuration list for PBXNativeTarget "DyslexicUITests" */;
+			buildPhases = (
+				92803FBC1C08BE5300FE09BA /* Sources */,
+				92803FBD1C08BE5300FE09BA /* Frameworks */,
+				92803FBE1C08BE5300FE09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92803FC21C08BE5300FE09BA /* PBXTargetDependency */,
+			);
+			name = DyslexicUITests;
+			productName = DyslexicUITests;
+			productReference = 92803FC01C08BE5300FE09BA /* DyslexicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		92803FD51C08BF1800FE09BA /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92803FDE1C08BF1800FE09BA /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				92803FD21C08BF1800FE09BA /* Sources */,
+				92803FD31C08BF1800FE09BA /* Frameworks */,
+				92803FD41C08BF1800FE09BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboard;
+			productName = Keyboard;
+			productReference = 92803FD61C08BF1800FE09BA /* Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92803F991C08BE5200FE09BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "David Gordon";
+				TargetAttributes = {
+					92803FA01C08BE5200FE09BA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					92803FB41C08BE5300FE09BA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 92803FA01C08BE5200FE09BA;
+					};
+					92803FBF1C08BE5300FE09BA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 92803FA01C08BE5200FE09BA;
+					};
+					92803FD51C08BF1800FE09BA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 92803F9C1C08BE5200FE09BA /* Build configuration list for PBXProject "Dyslexic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92803F981C08BE5200FE09BA;
+			productRefGroup = 92803FA21C08BE5200FE09BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92803FA01C08BE5200FE09BA /* Dyslexic */,
+				92803FB41C08BE5300FE09BA /* DyslexicTests */,
+				92803FBF1C08BE5300FE09BA /* DyslexicUITests */,
+				92803FD51C08BF1800FE09BA /* Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92803F9F1C08BE5200FE09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92803FAF1C08BE5200FE09BA /* LaunchScreen.storyboard in Resources */,
+				92803FAC1C08BE5200FE09BA /* Assets.xcassets in Resources */,
+				92803FAA1C08BE5200FE09BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FB31C08BE5300FE09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FBE1C08BE5300FE09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FD41C08BF1800FE09BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92803FE31C08BF3500FE09BA /* Keyboard.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92803F9D1C08BE5200FE09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92803FA71C08BE5200FE09BA /* ViewController.swift in Sources */,
+				92803FA51C08BE5200FE09BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FB11C08BE5300FE09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92803FBA1C08BE5300FE09BA /* DyslexicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FBC1C08BE5300FE09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92803FC51C08BE5300FE09BA /* DyslexicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92803FD21C08BF1800FE09BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92803FD91C08BF1800FE09BA /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92803FB71C08BE5300FE09BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92803FA01C08BE5200FE09BA /* Dyslexic */;
+			targetProxy = 92803FB61C08BE5300FE09BA /* PBXContainerItemProxy */;
+		};
+		92803FC21C08BE5300FE09BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92803FA01C08BE5200FE09BA /* Dyslexic */;
+			targetProxy = 92803FC11C08BE5300FE09BA /* PBXContainerItemProxy */;
+		};
+		92803FDC1C08BF1800FE09BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92803FD51C08BF1800FE09BA /* Keyboard */;
+			targetProxy = 92803FDB1C08BF1800FE09BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92803FA81C08BE5200FE09BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92803FA91C08BE5200FE09BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92803FAD1C08BE5200FE09BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92803FAE1C08BE5200FE09BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92803FC71C08BE5300FE09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92803FC81C08BE5300FE09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92803FCA1C08BE5300FE09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Dyslexic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlgordon.Dyslexic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92803FCB1C08BE5300FE09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Dyslexic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlgordon.Dyslexic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92803FCD1C08BE5300FE09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DyslexicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlgordon.DyslexicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyslexic.app/Dyslexic";
+			};
+			name = Debug;
+		};
+		92803FCE1C08BE5300FE09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DyslexicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlgordon.DyslexicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dyslexic.app/Dyslexic";
+			};
+			name = Release;
+		};
+		92803FD01C08BE5300FE09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DyslexicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlgordon.DyslexicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dyslexic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		92803FD11C08BE5300FE09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DyslexicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlgordon.DyslexicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dyslexic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		92803FDF1C08BF1800FE09BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlgordon.Dyslexic.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92803FE01C08BF1800FE09BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlgordon.Dyslexic.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92803F9C1C08BE5200FE09BA /* Build configuration list for PBXProject "Dyslexic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92803FC71C08BE5300FE09BA /* Debug */,
+				92803FC81C08BE5300FE09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92803FC91C08BE5300FE09BA /* Build configuration list for PBXNativeTarget "Dyslexic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92803FCA1C08BE5300FE09BA /* Debug */,
+				92803FCB1C08BE5300FE09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92803FCC1C08BE5300FE09BA /* Build configuration list for PBXNativeTarget "DyslexicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92803FCD1C08BE5300FE09BA /* Debug */,
+				92803FCE1C08BE5300FE09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92803FCF1C08BE5300FE09BA /* Build configuration list for PBXNativeTarget "DyslexicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92803FD01C08BE5300FE09BA /* Debug */,
+				92803FD11C08BE5300FE09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92803FDE1C08BF1800FE09BA /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92803FDF1C08BF1800FE09BA /* Debug */,
+				92803FE01C08BF1800FE09BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92803F991C08BE5200FE09BA /* Project object */;
+}
